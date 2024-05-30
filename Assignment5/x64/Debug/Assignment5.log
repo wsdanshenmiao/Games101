@@ -1,0 +1,65 @@
+﻿  main.cpp
+D:\Code\Games101\Assignment5\global.hpp(22,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(25,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(55,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\Code\Games101\Assignment5\Object.hpp(11,14): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(12,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(13,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(14,24): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,60): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,51): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,41): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(18,21): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(116,23): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\Triangle.hpp(117,75): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(117,68): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(117,61): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(117,44): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(117,37): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Triangle.hpp(117,30): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\main.cpp(17,45): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\main.cpp(17,40): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\main.cpp(17,35): warning C4305: “参数”: 从“double”到“float”截断
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244: “参数”: 从“_Ty”转换到“const float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244: “参数”: 从“_Ty”转换到“const float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory(3595,56): warning C4244:         ]
+  Renderer.cpp
+D:\Code\Games101\Assignment5\global.hpp(22,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(25,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(55,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\Code\Games101\Assignment5\Object.hpp(11,14): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(12,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(13,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(14,24): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,60): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,51): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,41): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(18,21): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Renderer.cpp(10,20): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\Renderer.cpp(217,46): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  Scene.cpp
+D:\Code\Games101\Assignment5\global.hpp(22,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(25,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code\Games101\Assignment5\global.hpp(55,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\Code\Games101\Assignment5\Object.hpp(11,14): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(12,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(13,13): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Object.hpp(14,24): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,60): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,51): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(16,41): warning C4305: “参数”: 从“double”到“float”截断
+D:\Code\Games101\Assignment5\Scene.hpp(18,21): warning C4305: “初始化”: 从“double”到“float”截断
+  正在生成代码...
+  Assignment5.vcxproj -> D:\Code\Games101\x64\Debug\Assignment5.exe
