@@ -12,7 +12,7 @@ BVHAccel::BVHAccel(std::vector<Object*> p, int maxPrimsInNode,
     if (primitives.empty())
         return;
 
-    if (splitMethod == SplitMethod::SAH) {
+    if (splitMethod == SplitMethod::NAIVE) {
         root = recursiveBuild(primitives);
     }
     else {
@@ -119,8 +119,8 @@ BVHBuildNode* BVHAccel::recursiveBuildBySVH(std::vector<Object*> objects)
         return node;
     }
     else if (objects.size() == 2) {
-        node->left = recursiveBuild(std::vector{ objects[0] });
-        node->right = recursiveBuild(std::vector{ objects[1] });
+        node->left = recursiveBuildBySVH(std::vector{ objects[0] });
+        node->right = recursiveBuildBySVH(std::vector{ objects[1] });
 
         node->bounds = Union(node->left->bounds, node->right->bounds);
         return node;
@@ -188,8 +188,8 @@ BVHBuildNode* BVHAccel::recursiveBuildBySVH(std::vector<Object*> objects)
 
         assert(objects.size() == (leftshapes.size() + rightshapes.size()));
 
-        node->left = recursiveBuild(leftshapes);
-        node->right = recursiveBuild(rightshapes);
+        node->left = recursiveBuildBySVH(leftshapes);
+        node->right = recursiveBuildBySVH(rightshapes);
 
         node->bounds = Union(node->left->bounds, node->right->bounds);
 

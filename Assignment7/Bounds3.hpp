@@ -91,12 +91,27 @@ class Bounds3
 
 
 inline bool Bounds3::IntersectP(const Ray& ray, const Vector3f& invDir,
-                                const std::array<int, 3>& dirIsNeg) const
+    const std::array<int, 3>& dirIsNeg) const
 {
     // invDir: ray direction(x,y,z), invDir=(1.0/x,1.0/y,1.0/z), use this because Multiply is faster that Division
     // dirIsNeg: ray direction(x,y,z), dirIsNeg=[int(x>0),int(y>0),int(z>0)], use this to simplify your logic
     // TODO test if ray bound intersects
+    const Vector3f& origin = ray.origin;
+    // 三个轴的 tEnter 和 tExit
+    Vector3f tMins = (pMin - origin) * invDir;
+    Vector3f tMaxs = (pMax - origin) * invDir;
+    for (int i = 0; i < 3; ++i) {
+        if (!dirIsNeg[i]) {  // 若改轴为负从tMax进，tMin出,需要交换
+            std::swap(tMins[i], tMaxs[i]);
+        }
+    }
+    float tMin = std::max(tMins.x, std::max(tMins.y, tMins.z));   // 取进入时间的最大值
+    float tMax = std::min(tMaxs.x, std::min(tMaxs.y, tMaxs.z));   // 取离开时间的最小值
 
+    if (tMin > tMax || tMax < 0) {
+        return false;
+    }
+    return true;
 }
 
 inline Bounds3 Union(const Bounds3& b1, const Bounds3& b2)

@@ -12,9 +12,10 @@
 class Vector3f {
 public:
     float x, y, z;
-    Vector3f() : x(0), y(0), z(0) {}
+    Vector3f() : x(0.0f), y(0.0f), z(0.0f) {}
     Vector3f(float xx) : x(xx), y(xx), z(xx) {}
     Vector3f(float xx, float yy, float zz) : x(xx), y(yy), z(zz) {}
+    Vector3f(const Vector3f& other) = default;
     Vector3f operator * (const float &r) const { return Vector3f(x * r, y * r, z * r); }
     Vector3f operator / (const float &r) const { return Vector3f(x / r, y / r, z / r); }
 
@@ -34,7 +35,7 @@ public:
     friend std::ostream & operator << (std::ostream &os, const Vector3f &v)
     { return os << v.x << ", " << v.y << ", " << v.z; }
     double       operator[](int index) const;
-    double&      operator[](int index);
+    float&      operator[](int index);
 
 
     static Vector3f Min(const Vector3f &p1, const Vector3f &p2) {
@@ -46,11 +47,27 @@ public:
         return Vector3f(std::max(p1.x, p2.x), std::max(p1.y, p2.y),
                        std::max(p1.z, p2.z));
     }
+    
+    static Vector3f Reciprocal(const Vector3f& p)
+    {
+        return Vector3f(1 / p.x, 1 / p.y, 1 / p.z);
+    }
 };
 inline double Vector3f::operator[](int index) const {
     return (&x)[index];
 }
 
+inline float& Vector3f::operator[](int index)
+{
+    switch (index)
+    {
+    case 0:return x; break;
+    case 1:return y; break;
+    case 2:return z; break;
+    default:
+        break;
+    }
+}
 
 class Vector2f
 {

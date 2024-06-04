@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Code\\Games101\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{023CF595-669F-4BF7-90BF-566C49990214}|Assignment7\\Assignment7.vcxproj|D:\\Code\\Games101\\Assignment7\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{023CF595-669F-4BF7-90BF-566C49990214}|Assignment7\\Assignment7.vcxproj|solutionrelative:Assignment7\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{023CF595-669F-4BF7-90BF-566C49990214}|Assignment7\\Assignment7.vcxproj|D:\\Code\\Games101\\Assignment7\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{023CF595-669F-4BF7-90BF-566C49990214}|Assignment7\\Assignment7.vcxproj|solutionrelative:Assignment7\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -31,14 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "D:\\Code\\Games101\\Assignment7\\Scene.cpp",
+              "RelativeDocumentMoniker": "Assignment7\\Scene.cpp",
+              "ToolTip": "D:\\Code\\Games101\\Assignment7\\Scene.cpp",
+              "RelativeToolTip": "Assignment7\\Scene.cpp",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwFoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T00:37:42.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Code\\Games101\\Assignment7\\main.cpp",
               "RelativeDocumentMoniker": "Assignment7\\main.cpp",
               "ToolTip": "D:\\Code\\Games101\\Assignment7\\main.cpp",
               "RelativeToolTip": "Assignment7\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvw0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-31T11:06:43.318Z",
+              "WhenOpened": "2024-06-02T14:33:47.032Z",
               "EditorCaption": ""
             }
           ]
