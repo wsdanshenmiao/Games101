@@ -1,0 +1,6 @@
+﻿  rope.cpp
+D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\src\rope.cpp(43,22): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\src\rope.cpp(73,38): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\src\rope.cpp(93,22): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\src\rope.cpp(111,38): warning C4305: “初始化”: 从“double”到“float”截断
+  Assignment8.vcxproj -> D:\Code\Computer Graphics\Games101\Assignment8\x64\Debug\Assignment8.exe
