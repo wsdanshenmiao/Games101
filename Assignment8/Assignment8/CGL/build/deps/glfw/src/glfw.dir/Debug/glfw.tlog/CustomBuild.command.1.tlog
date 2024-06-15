@@ -1,0 +1,10 @@
+^D:\CODE\COMPUTER GRAPHICS\GAMES101\ASSIGNMENT8\ASSIGNMENT8\CGL\DEPS\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/deps/glfw/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

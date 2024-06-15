@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D328835C-5D6E-310E-9D7D-8135CE50A338}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\include;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\include;D:\Code\External Libraries\ft2132\freetype-2.13.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\include;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\include;D:\Code\External Libraries\ft2132\freetype-2.13.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\include;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\include;D:\Code\External Libraries\ft2132\freetype-2.13.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\include;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\include;D:\Code\External Libraries\ft2132\freetype-2.13.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\621e67d27422c2e06f186f8785ad3231\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCXXCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeRCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeSystem.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\cmake_uninstall.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3.pc.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3Config.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw_config.h.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindFreetype.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glew\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\src\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCXXCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeRCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeSystem.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\cmake_uninstall.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3.pc.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3Config.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw_config.h.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindFreetype.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glew\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\src\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCXXCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeRCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeSystem.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\cmake_uninstall.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3.pc.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3Config.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw_config.h.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindFreetype.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glew\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\src\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeCXXCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeRCCompiler.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\3.29.4\CMakeSystem.cmake;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glew\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\cmake_uninstall.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\CMakeLists.txt;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3.pc.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw3Config.cmake.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\deps\glfw\src\glfw_config.h.in;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindFreetype.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glew\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\deps\glfw\src\CMakeFiles\generate.stamp;D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

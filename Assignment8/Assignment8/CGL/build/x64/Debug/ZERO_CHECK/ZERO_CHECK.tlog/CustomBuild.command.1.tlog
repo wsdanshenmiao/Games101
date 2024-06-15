@@ -1,0 +1,10 @@
+^D:\CODE\COMPUTER GRAPHICS\GAMES101\ASSIGNMENT8\ASSIGNMENT8\CGL\BUILD\CMAKEFILES\621E67D27422C2E06F186F8785AD3231\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/CGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

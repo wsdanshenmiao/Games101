@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/deps/glfw/CMakeLists.txt
+D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/deps/glfw/cmake_uninstall.cmake.in
+D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/deps/glfw/src/glfw3.pc.in
+D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/deps/glfw/src/glfw3Config.cmake.in
+D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/deps/glfw/src/glfw_config.h.in
+D:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake

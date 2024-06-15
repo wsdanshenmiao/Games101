@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector4D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\matrix3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\matrix4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\osdtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\osdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\vector4D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\osdtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\Computer Graphics\Games101\Assignment8\Assignment8\CGL\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7D170DD5-423E-30DD-BF49-ABACF7510BB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE7E6846-FAB9-3E36-8DE6-4DA770CDE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

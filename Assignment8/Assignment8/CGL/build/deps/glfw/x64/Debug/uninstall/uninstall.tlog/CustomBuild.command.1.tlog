@@ -1,0 +1,20 @@
+^D:\CODE\COMPUTER GRAPHICS\GAMES101\ASSIGNMENT8\ASSIGNMENT8\CGL\BUILD\CMAKEFILES\D8AF662AB2170B3871D08BF6722C862C\UNINSTALL.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -P "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/deps/glfw/cmake_uninstall.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\COMPUTER GRAPHICS\GAMES101\ASSIGNMENT8\ASSIGNMENT8\CGL\DEPS\GLFW\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL" "-BD:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build" --check-stamp-file "D:/Code/Computer Graphics/Games101/Assignment8/Assignment8/CGL/build/deps/glfw/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
